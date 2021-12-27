@@ -2,7 +2,7 @@
 
 import sys
 
-def identificador(str,marcador) :
+def identificador(str,marcador) : #donada una string i un marcador, extreu la subcadena (codi) posterior al marcador i la converteix en un float.
     posmarcador = str.find(marcador)
     if posmarcador == -1 :
             sys.exit("Error. No s'ha pogut trobar el marcador")
@@ -16,4 +16,3 @@ str = "X-DSPAM-Confidence:0.8475"
 marcador = ":"
 
 print(identificador(str,marcador))
-
