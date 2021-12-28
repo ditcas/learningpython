@@ -17,7 +17,7 @@ while True :
         print("Error, per favor introdueixi un valor numèric.")
         continue
 
-    if gran is None and petit is None :
+    if gran is None and petit is None : # El primer valor que s'introdueix es guarda a gran i petit. Només s'executa la primera vegada.
         gran = petit = numero
     if numero > gran :
         gran = numero

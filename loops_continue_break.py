@@ -1,3 +1,5 @@
+# Bucle infinit mentre no s'escriu "done". Demana escriure alguna cosa a la consola, i la imprimeix, excepte si comença per #, aleshores no fa el print, sinó que torna a iniciar.
+
 while True:
     line = input("> ")
     if line[0] == "#" :
