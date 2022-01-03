@@ -34,8 +34,9 @@ print(lista[:2])
 # List Methods: append, count, extend, index, insert, pop, remove, reverse, sort... veure documentació
 
 lista.append(12) #Afegeix element 12 al final de la llista
+
 print(lista)
-print(12 in lista)
+print(12 in lista) # Saber si un element està o no la llista. Retorna True o False
 print(4 not in lista)
 
 listab.sort() # ordena valors de petit a gran, o strings en ordre alfabètic. Si la llista conté valors i strings barrejat dona traceback.
