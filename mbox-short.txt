@@ -127,7 +127,6 @@ This automatic notification message was sent by Sakai Collab (https://collab.sak
 You can modify how you receive notifications at My Workspace > Preferences.
 
 
-
 From zqian@umich.edu Fri Jan  4 16:10:39 2008
 Return-Path: <postmaster@collab.sakaiproject.org>
 Received: from murder (mail.umich.edu [141.211.14.25])
