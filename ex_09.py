@@ -25,9 +25,9 @@ for line in file :
     mail_counts[words[1]] = mail_counts.get(words[1],0) +1
     origin_counts[mail[1]] = origin_counts.get(mail[1],0) +1
 
-print("Quantitat de mails rebuts per dia de la setmana", day_counts)
-print("Quantitat de mails rebuts per persona", mail_counts)
-print("Quantitat de mails rebuts per organització", origin_counts)
+print("Quantitat de mails rebuts per dia de la setmana", day_counts, "\n")
+print("Quantitat de mails rebuts per persona", mail_counts, "\n")
+print("Quantitat de mails rebuts per organització", origin_counts, "\n")
 
 sort_mail_counts = sorted(mail_counts.items(), key=lambda x: x[1], reverse=True)
 
