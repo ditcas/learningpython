@@ -1,0 +1,20 @@
+pwd -> on estic, directori
+
+cd -> entrar dins carpeta
+
+tabulador o ls -> carpetes/arxius que hi ha dins del directori actual
+
+cd .. -> anar al directori anterior
+
+ls -l -> llistat amb detalls
+
+ls -la -> llistat amb detalls i arxius ocults
+
+man "comanda" -> guia d'ús de la comanda de shell (no de Python) 
+
+rm <arxiu/directori> -> elimina l'arxiu o el directori
+
+mv -> mou o renombra l'arxiu
+mv <origen><destí>
+
+clear -> neteja la consola

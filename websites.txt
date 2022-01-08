@@ -1,0 +1,7 @@
+Consultar funcions: w3schools
+
+Pàgina oficial Python: Python.org
+
+Preguntes i respostes entre programadors: stackoverflow
+
+Style Guide for Python Code - PEP 8
