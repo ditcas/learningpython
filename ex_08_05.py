@@ -1,3 +1,5 @@
+# Escribir un programa para leer a través de datos de una bandeja de entrada de correo y cuando encuentres una línea que comience con “From”, dividir la línea en palabras utilizando la función split. Estamos interesados en quién envió el mensaje, lo cual es la segunda palabra en las líneas que comienzan con From. Tendrás que analizar la línea From e imprimir la segunda palabra de cada línea From, después tendrás que contar el número de líneas From(no incluir From:) e imprimir el total al final.
+
 import sys
 
 
