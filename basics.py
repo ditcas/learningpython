@@ -3,6 +3,9 @@ x = 5
 x = x+1
 print(x)
 
+# Quan una variable volem indicar que el seu valor es consideri com una constant i per tant no s'alteri al llarg del programa, ho marcarem estèticament posant el nom de la variable tot en majúscules. Python no té tipologies de constants integrades, tot són variables.
+CONSTANT_MAX = 5000
+
 # Type
 cadena = "Hello world"
 print(type(cadena))
@@ -12,8 +15,10 @@ x = 98.6
 print(type(x))
 
 # N'hi ha d'altres, combinació d'aquests.
-# Si en una expressió hi ha un int i un float barrejats, l'enter es converteix en decimal de manera implícita.
-# També es pot convertir usant les funcions int() i float()
+# Si en una expressió hi ha un int i un float barrejats, la resposta sempre estarà en format float.
+# Podem escriure valors grans separant les xifres amb guió baix per veure-ho millor, no afecta a Python:
+# 10000000000 és el mateix que 10_000_000_000
+# # També es pot convertir usant les funcions int() i float()
 
 print(float(42))
 
@@ -37,6 +42,9 @@ print(cadena)
 
 name = input("Who are you? ")
 print("Welcome", name)
+
+# CADENAS F (formato) : Una manera d'escriure variables dins d'una única cadena
+print(f"Welcome {name}")
 
 # Comparison operators
 

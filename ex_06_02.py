@@ -47,6 +47,9 @@ fruit = "banana"
 
 # METHODS: Functions that are already built into every string. We invoke them by appending the function to the string. These functions do not modify the original string.
 
-print("Hi There".lower()) # Nova string tota en minúscules.
+print("Hi There".lower()) # Nova string tota en minúscules. 
+# Quan un usuari ens proporciona informació a través d'un input, és útil passar-ho a minúscules perquè no et pots fiar de l'usuari, i després quan s'hagi de mostrar ja ho capitalitzem nosaltres.
 
 # Algunes de les més comuns són: capitalize, center, endswith, find, lstrip, rstrip, strip, replace, lower, upper, startswith...
+
+# lstrip, rstrip, strip, s'usen majoritàriament per eliminar espais en blanc de l'esquerra, dreta o ambdós costats de la variable que pot haver introduit l'usuari en escriure.
