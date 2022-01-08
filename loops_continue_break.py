@@ -3,8 +3,8 @@
 while True:
     line = input("> ")
     if line[0] == "#" :
-        continue
+        continue # The continue statement ends the current iteration and jumps to the top of the loop and starts next iteration.
     if line == "done" :
-        break
+        break # The break statement ends the current loop and jumps to the statement immediately following the loop. It's also like a loop test that can happen anywhere in the body of the loop.
     print(line)
 print("fet!")

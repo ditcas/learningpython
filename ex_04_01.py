@@ -2,7 +2,8 @@
 
 import sys #Llibreria que conté l'opció de fer sys.exit, que "surt" del programa.
 
-def calcul_salari(hores, preu_hora) :
+def calcul_salari(hores, preu_hora) : # hores i preu hora són dos arguments/paràmetres de la funció que requereix que siguin passats a la funció per poder exectuar els càlculs. No són variables, no es guarden en cap memòria.
+
     jornada_base = 40
 
     if hores <= jornada_base :  # primer posar en l'if el cas més plausible, que és no fer hores extres.
@@ -13,7 +14,7 @@ def calcul_salari(hores, preu_hora) :
         salari_extra = hores_extres * 1.5 * preu_hora
         salari = salari_base + salari_extra
 
-    return round(salari, 3)
+    return round(salari, 3) # Ends the function execution and "sends back" the result of the function
 
 
 hores = input("Introdueix les hores: ")

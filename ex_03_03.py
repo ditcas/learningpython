@@ -7,6 +7,8 @@ try :
 except :
     sys.exit("Puntuació incorrecta. Introdueixi un valor numèric.")
 
+# if i elif: Només executarà UNA de les opcions, i executarà la PRIMERA que trobi que sigui certa. Si després n'hi ha més que es compleixen, és igual, ja no hi entra. SI, SI NO, SI NO, SI NO...
+
 if puntuacio > 1.0 or puntuacio < 0.0 :
     print("Error. La puntuació està fora del rang.")
 elif puntuacio < 0.6 :

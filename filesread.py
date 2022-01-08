@@ -1,4 +1,6 @@
-file = open("mail.txt","r")
+file = open("mail.txt","r") # Els dos arguments són una string amb el nom de l'arxiu i el mode d'obertura, el qual és opcional. "r" per llegir l'arxiu, "w" per escriure-hi. Hi ha combinacions d'ambdós.
+
+print(file) # No imprimeix los datos sinó una línea amb informació del document.
 
 #Recórrer cada línea i la va imprimint. For __ in ___ detecta què és, si és un arxiu llegeix línea a línea, si és un array/llista, llegeix element a element, si és una string caràcter a caràcter.
 for line in file :
