@@ -70,11 +70,8 @@ print(f"Welcome {name}")
 # Collection: many values in a single "variable": List, Dictionary, Tuple.
 
 # Una list és mutable, una string i una tuple són immutables. Les keys d'un dictionary són immutables, els values són mutables.
-# LIST - EX_08
-list1 = ["red", 24, 98.6, [5, 6]] # A list element can be any Python object, even another list.
-print(list1[0])
-list1[0] = "blue" #modifico el primer element de la llista
-print(list1)
+
+# LIST - list_split.py, list.py, EX_08
 
 # DICTIONARIES - dictionaries_exemple.py, dictionaries.py i EX_09
 # TUPLES  - tuples.py i EX_10

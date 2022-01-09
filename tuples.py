@@ -1,6 +1,7 @@
 # Les Tuples són immutables, com les strings. No es poden canviar els elements. Això les diferencia de les Lists, que sí que són mutables.
 
 valors = (5, 4, "zero") # Definida una 3-tupla
+tupla1 = (3,) # Definida una 1-tupla. Cal posar una , al darrere
 # valors[0] = 1  Resulta Tracebak perquè no es pot modificar en les tuples
 
 # Assignació múltiple gràcies a les tuples

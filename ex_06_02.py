@@ -31,6 +31,8 @@ print(s[6:20]) # Si et passes de llarg amb un índex, no passares, para quan la 
 print(s[:2]) # Si no hi ha número primer, s'entèn que és des de l'inici de la cadena.
 print(s[8:]) # Del 8 fins al final
 print(s[:]) # tot. No té molt sentit, posaríem print(s).
+print(s[-3:]) # les tres últimes lletres
+print(s[:5:2]) # De les 5 primeres lletres, cada 2.
 
 # IN as a logical operator
 

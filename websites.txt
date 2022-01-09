@@ -5,3 +5,7 @@ Pàgina oficial Python: Python.org
 Preguntes i respostes entre programadors: stackoverflow
 
 Style Guide for Python Code - PEP 8
+    Sangrado - Tabulador -> 4 espacios
+    No exceso de intros, los justos y necesarios
+    No más de 80 caracteres por línea
+    Comentarios no más largos de 72 comentarios por línea
